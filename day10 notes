@@ -1,0 +1,40 @@
+
+ajax operations     jquery
+rest calls
+fetch operations
+axios operations ---- react
+httpClient ---- angular
+
+
+javascript --- vanillaJS fetch
+
+
+crud
+
+create  ---->  post
+read	---->  get
+update ----->  put
+delete  ---->  delete
+
+mobile---- null to 01234
+
+get			gets the information from a server(nodejs, php, spring boot, django c# and .net) to front end 
+
+post 		send the content to the server from front end side
+
+put 		updates the value in the server if it is not in db then create this 			01234
+
+delete		deletes the value from the server
+
+patch	    update the value only if it is present in server
+
+
+
+db is the thing which carries the data 
+
+
+
+api -----> application programming interface
+
+
+json---> 

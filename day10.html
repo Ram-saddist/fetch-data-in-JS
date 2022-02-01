@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+		var naveen;
+		fetch("http://localhost:5000/getdata")
+			.then(function(res){
+				return res.json()
+			})
+			.then(function(s){
+				naveen=s;
+				polishetty(naveen);
+			})
+		function polishetty(naveen){
+			for(var i=0;i<naveen.length;i++){
+				document.getElementById("user").innerHTML+="<br/>"+naveen[i].user
+				document.getElementById("host").innerHTML+="<br/>"+naveen[i].host
+			}
+		}
+	</script>
+</head>
+<body>
+	<p>I am going to get data from server</p>
+	<p id="user"></p>
+	<p id="host"></p>
+</body>
+</html>
+<!--
+function add(a,b){				function fetch(d){
+	return a+b 						return data(information)
+}								}
+
+var s=add(23,24);						fetch("api")
+
+
+-->
